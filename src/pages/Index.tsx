@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { toast } from "@/components/ui/sonner";
-import { Chef, ShoppingBag, Clock, Heart } from "lucide-react";
+import { Utensils, ShoppingBag, Clock, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -140,7 +140,7 @@ const Index = () => {
                           <span className="font-bold text-orange-600">{meal.price}</span>
                         </div>
                         <div className="flex items-center text-gray-600">
-                          <Chef className="h-4 w-4 mr-2" />
+                          <Utensils className="h-4 w-4 mr-2" />
                           <span>{meal.chef}</span>
                         </div>
                       </CardContent>
